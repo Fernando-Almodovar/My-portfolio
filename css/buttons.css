@@ -1,0 +1,23 @@
+/* ================= Banner Principal ===================*/
+.banner-btn {
+    display: flex;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.banner-btn .btn-contact {
+    border: none;
+    background-color: green;
+}
+
+.banner-btn .btn {
+    padding: 1rem 2.5rem;
+    border-radius: .9rem;
+}
+
+.btn-contact a {
+    color: white;
+    font-weight: bold;
+}
+/* ================= Fin Banner Principal ===================*/
+

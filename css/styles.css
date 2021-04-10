@@ -1,0 +1,89 @@
+/* ================= Atributos por defecto ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= Atributos por defecto ================= */
+/* ================= Atributos asignados ================== */
+
+img {
+    border-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #0c0d1c;
+    margin: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-size: 62.5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p {
+    padding: 1rem 0;
+}
+
+
+/* ================= Atributos asignados ================== */
+/* =========== Medidas de Columnas ============== */
+
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    max-width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 49%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.65%;
+}
+.col-12{
+    width: 100%;
+}
+
+/* ================ Medidas de Columnas ================ */
