@@ -52,6 +52,43 @@
 
 /* ================= Fin Banner principal ===================*/
 
+@media all and (max-width:375px){
+    .b-main {
+        padding-top: 6rem;
+    }
+    
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+    
+    .banner-img {
+        background-image: url(../img/bg-image/code3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: cover;
+        width: 100%;
+        height: 55rem;
+    }
+
+    .banner-content h1 {
+        font-size: 4rem;
+      }
+      .banner-content h1 span{
+          display: inline-block;
+      }
+      .banner-btn .btn{
+        font-size: 1.6rem;
+        margin-right: 2rem;
+     }
+}
+
 @media all and (max-width:768px){
     .b-main {
         padding-top: 6rem;
