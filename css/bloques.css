@@ -51,69 +51,9 @@
 }
 
 /* ================= Fin Banner principal ===================*/
+/* ================== Responsive Banner principal ===================*/
 
-@media all and (max-width:375px){
-    .b-main {
-        padding-top: 6rem;
-    }
-    
-    .banner-content {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100%;
-    }
-    
-    .banner-img {
-        background-image: url(../img/bg-image/code3.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        /* background-attachment: fixed; */
-        background-size: cover;
-        width: 100%;
-        height: 55rem;
-    }
-
-    .banner-content h1 {
-        font-size: 4rem;
-      }
-      .banner-content h1 span{
-          display: inline-block;
-      }
-      .banner-btn .btn{
-        font-size: 1.6rem;
-        margin-right: 2rem;
-     }
-}
-
-@media all and (max-width:768px){
-    .b-main {
-        padding-top: 6rem;
-    }
-    
-    .banner-content {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100%;
-    }
-    
-    .banner-img {
-        background-image: url(../img/bg-image/code3.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        /* background-attachment: fixed; */
-        background-size: cover;
-        width: 100%;
-        height: 55rem;
-    }
-
+/* @media all and (min-width:768px){
     .banner-content h1 {
         font-size: 4rem;
       }
@@ -124,10 +64,8 @@
         font-size: 1.6rem;
         margin-right: 2rem;
       }
-}
-/* ================= Fin Banner principal ===================*/
-/* ================= Fin Banner principal ===================*/
-
+} */
+/* ================== Fin Responsive Banner principal ===================*/
 /* ================= Nosotros ===================*/
 
 /* main {
@@ -137,8 +75,6 @@
 .container {
     width: 80%;
     margin: auto;
-    /* margin-top: 6rem;
-    margin-bottom: 6rem; */
 }
 
 main {
@@ -167,6 +103,7 @@ main {
 
 img {
     border-style: none;
+    box-shadow: 0px 4px 8px 3px rgb(0, 0, 0, 0.8);
 }
 
 .title h2 {
@@ -179,12 +116,18 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    padding: 2rem 0;
+}
+
+.about-container-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 2rem 0;
 }
 
 .about {
-    padding-top: 6rem;
+    padding: 6rem 6rem;
     max-width: 60rem;
 }
 
@@ -216,10 +159,6 @@ b, strong {
     font-weight: bolder;
 }
 
-#contacto {
-    text-align: center;
-}
-
 /* ================== Fin Nosotros ===================*/
 /* ================== Responsive Nosotros ===================*/
 
@@ -227,6 +166,11 @@ b, strong {
     .photo-perfil{
         margin: auto;
     }
+
+    .photo-perfil-2 {
+        margin: auto;
+    }
+    
     .about-us{
         padding-top: 0;
         padding-left: 3rem;
@@ -246,44 +190,135 @@ b, strong {
 /* ================= Servicios ===================*/
 
 #service {
-    background-image: url(./img/bg-image/code2.jpg);
-    background: rgba(0, 0, 0, 0.2);
-    justify-content: space-around;
+    background-image: url(../img/bg-image/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+.container-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.form {
-    border: 1px solid white;
-    width: min(60rem, 100%);
+.container-services img {
+    width: 6rem;
+    padding-bottom: 2rem;
+}
+
+.container-services .service-1 {
+    font-size: 1.4rem;
+    text-align: left;
     margin: 0 auto;
-    padding: 2rem;
-    border-radius: 1rem;
+    max-width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem
 }
 
-.form fieldset {
-    border: none;
+.container-services .service-2 {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem
 }
 
-fieldset {
-    padding: .35rem .75em .625em;
+.container-services .service-3 {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem
 }
+
+.container-services .service-4 {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem
+}
+
+.container-services .service-5 {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem
+}
+
+.container-services .service-6 {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem
+}
+
+.container-services .service-7 {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem
+}
+
+.container-services .service-8 {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem
+}
+
+.container-services h3 {
+    font-size: 1.8rem;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.container-services p {
+    line-height: 2rem;
+}
+
+.title-service h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10rem 0;
+}
+
 /* ================= Fin Servicios ===================*/
 
 
-/* ================= Footer ===================*/
+/* ================= Contacto ===================*
+
+
+
+
+/* ================= Fin Contacto ===================*
+
+
+/* ================= Pie de pagina ===================*/
 
 .footer {
-    background: #0c0d1c;
+    background: rgb(43, 17, 136);
     padding: 4rem 0;
     text-align: center;
     margin-top: 6rem;
 }
 
-/* ================= Fin Footer ===================*/
+/* ================= Fin Pie de pagina ===================*/
 
 
 
