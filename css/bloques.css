@@ -378,10 +378,8 @@ b, strong {
 
 .footer {
     background: #0c0d1c;
-    width: 100%;
-    display: flex;
-    padding: 4rem 0;
-    /* margin-top: 6rem; */
+    text-align: center;
+    flex-direction: row;
 }
 
 .column-1 {
@@ -397,6 +395,7 @@ b, strong {
 }
 
 .content-footer-social {
+    padding-bottom: 1rem;
 }
 
 /* ================= Fin Pie de pagina ===================*/
