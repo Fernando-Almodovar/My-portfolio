@@ -314,9 +314,8 @@ b, strong {
     padding: 20px;
     /* box-shadow: 0, 0, 20px, 1px rgba(0, 0, 0, 0.3); */
     position: relative;
-    border: 10px solid rgba(163, 147, 147, 0.3);
+    border: 10px solid rgba(241, 236, 236, 0.3);
     border-radius: 8px;
-    box-sizing: border-box;
 }
 
 .title-contact h2 {
@@ -334,14 +333,14 @@ b, strong {
 
 .form-input {
     padding: 20px;
-    background: rgba(133, 123, 123, 0);
+    background: rgba(241, 236, 236, 0.3);
     border: 2px solid rgba(0, 0, 0, 0.8);
     margin-bottom: 40px;
     border-radius: 8px;
 }
 
 .form-input:focus {
-    outline: 1px solid rgba(0, 0, 0, 0.3);
+    outline: 1px solid rgb(255, 254, 254);
 }
 
 .form-input:focus + .form-label {
