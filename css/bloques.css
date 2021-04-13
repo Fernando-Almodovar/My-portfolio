@@ -387,25 +387,32 @@ b, strong {
 }
 
 .container-footer {
-    width: 100%;
-    margin: auto;
-    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer h3 {
     font-size: 1.6rem;
+    padding-bottom: 1rem;
+    height: 33.33%;
 }
 
-.column-1 {
-    display: flex;
+.column-1 p {
+    padding-left: 2rem;
+    text-align: justify;
+    height: 33.33%;
 }
 
-.column-2 {
-    display: flex;
+.column-2 label {
+    text-align: justify;
+    padding-left: 2rem;
+    height: 33.33%;
 }
 
 .column-3 {
-    
+    padding-right: 3rem;
+    padding-left: 2rem;
 }
 
 .footer .content-footer-social {
